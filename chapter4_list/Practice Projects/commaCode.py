@@ -3,9 +3,7 @@
 # a string with all the items separated by a comma and a space, with and
 # inserted before the last item. 
 
-import os, gc
-#automatic garbage collecting
-gc.enable()
+import os
 
 list=[]
 
