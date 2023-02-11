@@ -1,9 +1,16 @@
 #Conway's Game of life
 
-import random, time, copy
+import random, time, copy, os
 
 WIDTH = 60;
 HEIGHT = 20;
+
+
+def clear():
+  if os.name == 'nt':
+    _ = os.system('cls')
+  else:
+    _ = os.system('clear')
 
 
 def printMatrix(cells):
@@ -67,6 +74,11 @@ while True: #main program
           nextCells[y][x] = '#'
         else:
           nextCells[y][x] = ' '
-        
+
+
+   #Give time to stop glitching     
    time.sleep(0.3)
+
+   #Clear screen
+   clear()
         
