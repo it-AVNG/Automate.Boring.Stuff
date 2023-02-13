@@ -1,0 +1,17 @@
+send2trash
+requests
+beautifulsoup4
+selenium
+openpyxl
+PyPDF2
+python-docx
+imapclient
+pyzmail36
+twilio
+pillow
+PyInputPlus
+ezgmail
+ezsheets
+python3-xlib
+pyautogui
+pyperclip
