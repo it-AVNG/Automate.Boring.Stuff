@@ -17,4 +17,3 @@ pyautogui
 pyperclip
 zombiedice
 black
-
