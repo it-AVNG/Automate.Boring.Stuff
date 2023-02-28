@@ -17,3 +17,5 @@ pyautogui
 pyperclip
 zombiedice
 black
+bs4
+html5lib
