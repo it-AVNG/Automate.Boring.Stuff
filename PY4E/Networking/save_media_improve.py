@@ -5,7 +5,7 @@ fhand = open('cover3.jpg', 'wb')
 
 size = 0 
 while True:
-    info =img.read(5120)
+    info =img.read(100000)
     if len(info) < 1: break
     size = size +len(info)
     fhand.write(info)
